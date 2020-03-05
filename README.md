@@ -1,4 +1,4 @@
-#this workflow is to calculate the germline high-functional impact variants load for individuals.
+#this workflow is for the estimation of germline high-functional impact variants load.
 
 
 ####the dependent files####
@@ -7,7 +7,7 @@ gnomAD HCLoF: all_gnomeAD_HC_LoF.bed
 All human genes: xgen-exome-research-panel-gene-list9e255a1532796e2eaa53ff00001c1b3c.txt
 
 
-sample names, each column is one sample, the sample name has to be the same as the sample name in the vcf file.
+sample names, each row is a sample, the sample name should match the sample name in the vcf file.
 Sampleinfo.txt
 
 Put all these files under working directory. 
